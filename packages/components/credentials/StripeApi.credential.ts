@@ -12,7 +12,7 @@ class StripeApi implements INodeCredential {
         this.name = 'stripeApi'
         this.version = 1.0
         this.description =
-            'Refer to <a target="_blank" href="https://docs.stripe.com/keys">official guide</a> on how to get accessToken on Stripe'
+            'Refer to <a target="_blank" href="https://docs.stripe.com/keys">official guide</a> on how to get an API key for Stripe'
         this.inputs = [
             {
                 label: 'Stripe API Token',

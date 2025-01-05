@@ -11,6 +11,8 @@ class UpstashVectorApi implements INodeCredential {
         this.label = 'Upstash Vector API'
         this.name = 'upstashVectorApi'
         this.version = 1.0
+        this.description =
+            'Refer to <a target="_blank" href="https://upstash.com/docs/vector/api/get-started">official guide</a> on how to create an API key for Upstash Vector'
         this.inputs = [
             {
                 label: 'Upstash Vector REST URL',

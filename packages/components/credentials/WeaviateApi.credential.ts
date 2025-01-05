@@ -11,6 +11,8 @@ class WeaviateApi implements INodeCredential {
         this.label = 'Weaviate API'
         this.name = 'weaviateApi'
         this.version = 1.0
+        this.description =
+            'Refer to <a target="_blank" href="https://weaviate.io/developers/weaviate/api/rest">official guide</a> on how to create an API key on Weaviate'
         this.inputs = [
             {
                 label: 'Weaviate API Key',

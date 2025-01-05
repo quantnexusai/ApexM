@@ -11,6 +11,8 @@ class VectaraAPI implements INodeCredential {
         this.label = 'Vectara API'
         this.name = 'vectaraApi'
         this.version = 1.0
+        this.description =
+            'Refer to <a target="_blank" href="https://docs.vectara.com/docs/api-reference/api-overview">official guide</a> on how to create an API key on Vectara'
         this.inputs = [
             {
                 label: 'Vectara Customer ID',
